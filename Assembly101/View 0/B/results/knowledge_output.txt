@@ -1,0 +1,20 @@
+TASK SEQUENCE:
+--------------------------------------------------------------------------------
+
+1. Approach Manipulated Object [Frames 0-1]
+2. Grasp Manipulated Object [Frames 1-2]
+3. Move Manipulated Object [Frames 2-10]
+4. Place Manipulated Object onto Target Object (objects in contact) [Frames 3-4]
+
+FINAL STATE:
+--------------------------------------------------------------------------------
+
+Manipulated Object:
+  - Position change: move along positive X (local) 0.1318m, move along positive Y (local) 0.0554m, move along positive Z (local) 0.0557m
+  - Orientation: object mainly translated, move right 0.0080m, move down 0.1408m, move forward 0.0605m
+
+Target Object:
+  - Position: No significant change (all movements < 0.03m)
+  - Orientation: object translated and rotated simultaneously. Translation: move left 0.0149m, move down 0.0136m; Rotation: The X-axis is rotated 3.76° clockwise relative to its initial orientation., The Y-axis is rotated 6.62° counter-clockwise relative to its initial orientation., The Z-axis is rotated 1.55° counter-clockwise relative to its initial orientation.
+
+Manipulated Object is at the middle-back-middle of Target Object, distance 0.0658m (Y-axis back 0.0627m)

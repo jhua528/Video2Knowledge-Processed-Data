@@ -1,0 +1,20 @@
+TASK SEQUENCE:
+--------------------------------------------------------------------------------
+
+1. Approach Manipulated Object [Frames 0-0]
+2. Grasp Manipulated Object [Frames 0-1]
+3. Move Manipulated Object [Frames 1-14]
+4. Place Manipulated Object onto Target Object (objects in contact) [Frames 13-13]
+
+FINAL STATE:
+--------------------------------------------------------------------------------
+
+Manipulated Object:
+  - Position change: move along positive X (local) 0.0654m, move along negative Y (local) 0.1079m, move along negative Z (local) 0.0753m
+  - Orientation: object mainly rotated, The X-axis is rotated 90.03° counter-clockwise relative to its initial orientation., The Y-axis is rotated 9.29° counter-clockwise relative to its initial orientation., The Z-axis is rotated 163.39° clockwise relative to its initial orientation.
+
+Target Object:
+  - Position: No change
+  - Orientation: No change
+
+Manipulated Object is at the middle-back-upper of Target Object, distance 0.0748m (Y-axis back 0.0331m, Z-axis upper 0.0666m)

@@ -1,0 +1,186 @@
+{
+  "gripper_states": {
+    "open": {
+      "position": [
+        0.8,
+        0.8
+      ],
+      "duration": 1.0
+    },
+    "close": {
+      "position": [
+        0.575,
+        0.575
+      ],
+      "duration": 1.0
+    }
+  },
+  "named_positions": {
+    "home": {
+      "type": "joint",
+      "angles": [
+        0.0,
+        0.0,
+        -1.5708,
+        0.0,
+        -1.5708,
+        0.0
+      ]
+    },
+    "point_a": {
+      "type": "cartesian",
+      "x": 0.0,
+      "y": -0.7,
+      "z": 0.0,
+      "x_o": [
+        1,
+        0,
+        0
+      ],
+      "y_o": [
+        0,
+        1,
+        0
+      ],
+      "z_o": [
+        0,
+        0,
+        1
+      ]
+    },
+    "point_a_approach": {
+      "type": "cartesian",
+      "x": 0.0,
+      "y": -0.7,
+      "z": 0.23,
+      "x_o": [
+        1,
+        0,
+        0
+      ],
+      "y_o": [
+        0,
+        1,
+        0
+      ],
+      "z_o": [
+        0,
+        0,
+        1
+      ]
+    },
+    "point_b": {
+      "type": "cartesian",
+      "x": 0.0506,
+      "y": -0.8817,
+      "z": 0.1463,
+      "x_o": [
+        -0.24981,
+        0.938195,
+        -0.23955
+      ],
+      "y_o": [
+        0.83276,
+        0.081932,
+        -0.547538
+      ],
+      "z_o": [
+        -0.494071,
+        -0.336268,
+        -0.801759
+      ]
+    },
+    "point_b_approach": {
+      "type": "cartesian",
+      "x": 0.0506,
+      "y": -0.8817,
+      "z": 0.3763,
+      "x_o": [
+        -0.24981,
+        0.938195,
+        -0.23955
+      ],
+      "y_o": [
+        0.83276,
+        0.081932,
+        -0.547538
+      ],
+      "z_o": [
+        -0.494071,
+        -0.336268,
+        -0.801759
+      ]
+    }
+  },
+  "sequence": [
+    {
+      "step": 1,
+      "description": "移动到 HOME 位置",
+      "action": "move",
+      "target": "home"
+    },
+    {
+      "step": 2,
+      "description": "打开夹爪",
+      "action": "gripper",
+      "state": "open",
+      "duration": 1.0
+    },
+    {
+      "step": 3,
+      "description": "移动到 A 点上方（预备位置）",
+      "action": "move",
+      "target": "point_a_approach"
+    },
+    {
+      "step": 4,
+      "description": "下降到 A 点（抓取位置）",
+      "action": "move",
+      "target": "point_a"
+    },
+    {
+      "step": 5,
+      "description": "关闭夹爪（抓取物体）",
+      "action": "gripper",
+      "state": "close",
+      "duration": 1.0
+    },
+    {
+      "step": 6,
+      "description": "提升到 A 点上方",
+      "action": "move",
+      "target": "point_a_approach"
+    },
+    {
+      "step": 7,
+      "description": "移动到 B 点上方（预备位置）",
+      "action": "move",
+      "target": "point_b_approach"
+    },
+    {
+      "step": 8,
+      "description": "下降到 B 点（放置位置）",
+      "action": "move",
+      "target": "point_b"
+    },
+    {
+      "step": 9,
+      "description": "打开夹爪（放置物体）",
+      "action": "gripper",
+      "state": "open",
+      "duration": 1.0
+    },
+    {
+      "step": 10,
+      "description": "提升到 B 点上方",
+      "action": "move",
+      "target": "point_b_approach"
+    },
+    {
+      "step": 11,
+      "description": "返回 HOME 位置",
+      "action": "move",
+      "target": "home"
+    }
+  ]
+}

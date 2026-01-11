@@ -1,0 +1,2068 @@
+{
+  "analysis_summary": {
+    "total_objects": 2,
+    "objects": {
+      "1": "Manipulated Object",
+      "2": "Target Object"
+    },
+    "has_hand_data": true,
+    "has_projection_contact_analysis": true
+  },
+  "object_motion": {
+    "obj_1": {
+      "moving_events": [
+        [
+          4,
+          4
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          14,
+          14
+        ],
+        [
+          16,
+          17
+        ]
+      ],
+      "static_events": [
+        [
+          0,
+          3
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          15,
+          15
+        ]
+      ],
+      "rotation_events": [
+        [
+          4,
+          9
+        ],
+        [
+          11,
+          12
+        ]
+      ],
+      "non_rotation_events": [
+        [
+          0,
+          3
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          13,
+          17
+        ]
+      ],
+      "pose_change_analysis": {
+        "summary": "object mainly rotated, The X-axis is rotated 89.98° counter-clockwise relative to its initial orientation., The Y-axis is rotated 64.98° counter-clockwise relative to its initial orientation., The Z-axis is rotated 44.25° clockwise relative to its initial orientation.",
+        "motion_type": "rotation-dominant",
+        "translation": {
+          "vector_xyz": [
+            0.11824661493301392,
+            -0.12210482358932495,
+            -0.07245230674743652
+          ],
+          "magnitude": 0.18477334082126617,
+          "x_axis": 0.11824661493301392,
+          "y_axis": -0.12210482358932495,
+          "z_axis": -0.07245230674743652,
+          "description": {
+            "description": "move right 0.1182m, move down 0.1221m, move backward 0.0725m",
+            "magnitude": 0.18477334082126617,
+            "detailed": "total displacement: 0.1848m"
+          }
+        },
+        "translation_local_frame": {
+          "vector_xyz_local": [
+            -0.11485129594802856,
+            0.03020954132080078,
+            0.14155474305152893
+          ],
+          "magnitude": 0.18477332592010498,
+          "x_axis_local": -0.11485129594802856,
+          "y_axis_local": 0.03020954132080078,
+          "z_axis_local": 0.14155474305152893,
+          "description": {
+            "description": "move along negative X (local) 0.1149m, move along positive Y (local) 0.0302m, move along positive Z (local) 0.1416m",
+            "magnitude": 0.18477332592010498,
+            "detailed": "total displacement in local frame: 0.1848m"
+          },
+          "reference_frame": "initial object local coordinate system"
+        },
+        "rotation": {
+          "total_angle_deg": 131.64158341168888,
+          "euler_angles_xyz_deg": [
+            89.97819371045831,
+            64.98044431981664,
+            -44.2501557643984
+          ],
+          "roll_x_deg": 89.97819371045831,
+          "pitch_y_deg": 64.98044431981664,
+          "yaw_z_deg": -44.2501557643984,
+          "rotation_matrix": [
+            [
+              0.30294305086135864,
+              0.6493504047393799,
+              -0.6975454092025757
+            ],
+            [
+              -0.2951156497001648,
+              -0.6320415139198303,
+              -0.716540515422821
+            ],
+            [
+              -0.9061635136604309,
+              0.42292770743370056,
+              0.00016094268357846886
+            ]
+          ],
+          "description": {
+            "description": "The X-axis is rotated 89.98° counter-clockwise relative to its initial orientation., The Y-axis is rotated 64.98° counter-clockwise relative to its initial orientation., The Z-axis is rotated 44.25° clockwise relative to its initial orientation.",
+            "total_angle_deg": 131.64158341168888,
+            "detailed": "total rotation angle: 131.64°"
+          }
+        },
+        "initial_pose": {
+          "position_xyz": [
+            -0.08622544258832932,
+            0.04540248587727547,
+            0.9203861355781555
+          ],
+          "rotation_matrix": [
+            [
+              -0.786700963973999,
+              0.613789975643158,
+              0.06605685502290726
+            ],
+            [
+              0.43730297684669495,
+              0.6296054720878601,
+              -0.6421550512313843
+            ],
+            [
+              -0.4357380270957947,
+              -0.4762970209121704,
+              -0.7637233138084412
+            ]
+          ],
+          "frame": 0
+        },
+        "final_pose": {
+          "position_xyz": [
+            0.0320211723446846,
+            -0.07670234143733978,
+            0.847933828830719
+          ],
+          "rotation_matrix": [
+            [
+              -0.47932296991348267,
+              -0.8708479404449463,
+              0.10896492749452591
+            ],
+            [
+              0.5285689234733582,
+              -0.38555896282196045,
+              -0.7562798857688904
+            ],
+            [
+              0.700617253780365,
+              -0.304906964302063,
+              0.6451104283332825
+            ]
+          ],
+          "frame": 17
+        },
+        "frame_count": 18
+      }
+    },
+    "obj_2": {
+      "moving_events": [
+        [
+          8,
+          12
+        ],
+        [
+          14,
+          15
+        ]
+      ],
+      "static_events": [
+        [
+          0,
+          7
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          16,
+          17
+        ]
+      ],
+      "rotation_events": [
+        [
+          8,
+          9
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          14,
+          15
+        ]
+      ],
+      "non_rotation_events": [
+        [
+          0,
+          7
+        ],
+        [
+          10,
+          10
+        ],
+        [
+          13,
+          13
+        ],
+        [
+          16,
+          17
+        ]
+      ],
+      "pose_change_analysis": {
+        "summary": "object mainly rotated, The X-axis is rotated 10.68° counter-clockwise relative to its initial orientation., The Y-axis is rotated 65.78° counter-clockwise relative to its initial orientation., The Z-axis is rotated 58.68° counter-clockwise relative to its initial orientation.",
+        "motion_type": "rotation-dominant",
+        "translation": {
+          "vector_xyz": [
+            0.016259275376796722,
+            -0.10824912786483765,
+            -0.012657403945922852
+          ],
+          "magnitude": 0.11019277572631836,
+          "x_axis": 0.016259275376796722,
+          "y_axis": -0.10824912786483765,
+          "z_axis": -0.012657403945922852,
+          "description": {
+            "description": "move right 0.0163m, move down 0.1082m, move backward 0.0127m",
+            "magnitude": 0.11019277572631836,
+            "detailed": "total displacement: 0.1102m"
+          }
+        },
+        "translation_local_frame": {
+          "vector_xyz_local": [
+            -0.009600977413356304,
+            0.057525817304849625,
+            0.09349358081817627
+          ],
+          "magnitude": 0.11019278317689896,
+          "x_axis_local": -0.009600977413356304,
+          "y_axis_local": 0.057525817304849625,
+          "z_axis_local": 0.09349358081817627,
+          "description": {
+            "description": "move along negative X (local) 0.0096m, move along positive Y (local) 0.0575m, move along positive Z (local) 0.0935m",
+            "magnitude": 0.11019278317689896,
+            "detailed": "total displacement in local frame: 0.1102m"
+          },
+          "reference_frame": "initial object local coordinate system"
+        },
+        "rotation": {
+          "total_angle_deg": 82.19222860431036,
+          "euler_angles_xyz_deg": [
+            10.681282050497721,
+            65.77782976524789,
+            58.67706232931234
+          ],
+          "roll_x_deg": 10.681282050497721,
+          "pitch_y_deg": 65.77782976524789,
+          "yaw_z_deg": 58.67706232931234,
+          "rotation_matrix": [
+            [
+              0.21328654885292053,
+              -0.7515785098075867,
+              0.6242105960845947
+            ],
+            [
+              0.35047855973243713,
+              0.6552461385726929,
+              0.6691915988922119
+            ],
+            [
+              -0.9119614958763123,
+              0.07604283839464188,
+              0.4031672477722168
+            ]
+          ],
+          "description": {
+            "description": "The X-axis is rotated 10.68° counter-clockwise relative to its initial orientation., The Y-axis is rotated 65.78° counter-clockwise relative to its initial orientation., The Z-axis is rotated 58.68° counter-clockwise relative to its initial orientation.",
+            "total_angle_deg": 82.19222860431036,
+            "detailed": "total rotation angle: 82.19°"
+          }
+        },
+        "initial_pose": {
+          "position_xyz": [
+            0.03176707774400711,
+            0.080248162150383,
+            0.8777567148208618
+          ],
+          "rotation_matrix": [
+            [
+              0.8724361062049866,
+              0.48737257719039917,
+              -0.036376889795064926
+            ],
+            [
+              0.2675572633743286,
+              -0.5385823845863342,
+              -0.7989632487297058
+            ],
+            [
+              -0.4089847207069397,
+              0.6873113512992859,
+              -0.6002787351608276
+            ]
+          ],
+          "frame": 0
+        },
+        "final_pose": {
+          "position_xyz": [
+            0.04802635312080383,
+            -0.02800096571445465,
+            0.865099310874939
+          ],
+          "rotation_matrix": [
+            [
+              0.39006680250167847,
+              -0.3391213119029999,
+              0.8560635447502136
+            ],
+            [
+              0.5969283580780029,
+              -0.6147496104240417,
+              -0.5155185461044312
+            ],
+            [
+              0.7010880708694458,
+              0.7120953798294067,
+              -0.037362292408943176
+            ]
+          ],
+          "frame": 17
+        },
+        "frame_count": 18
+      }
+    }
+  },
+  "object_interactions": {
+    "obj_1_to_obj_2": {
+      "interaction_summary": {
+        "type": "approaching",
+        "initial_distance": 0.13020646572113037,
+        "final_distance": 0.05406147986650467,
+        "min_distance": 0.05140256509184837,
+        "max_distance": 0.15328967571258545,
+        "distance_change": -0.0761449858546257,
+        "description": "Initial distance 0.1302m, final distance 0.0541m, approaching 0.0761m"
+      },
+      "contact_analysis": {
+        "has_contact": true,
+        "contact_frame_count": 3,
+        "contact_events": [
+          [
+            15,
+            17
+          ]
+        ],
+        "contact_description": "Detected 1 contact events, total 3 frames",
+        "detection_method": "OBB collision detection (considering rotation and embedding)",
+        "contact_tolerance": 0.005
+      },
+      "final_relative_position": {
+        "position": "right-front-middle",
+        "vector_xyz": [
+          -0.047348834574222565,
+          0.023143388330936432,
+          0.01204635202884674
+        ],
+        "distance": 0.05406147241592407,
+        "x_offset": -0.047348834574222565,
+        "y_offset": 0.023143388330936432,
+        "z_offset": 0.01204635202884674,
+        "horizontal_direction": "right",
+        "depth_direction": "front",
+        "vertical_direction": "middle",
+        "description": "Manipulated Object is at the right-front-middle of Target Object, distance 0.0541m (X-axis right side 0.0473m, Y-axis front 0.0231m)"
+      },
+      "approach_events": [
+        [
+          9,
+          9
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          15,
+          15
+        ]
+      ],
+      "separate_events": [
+        [
+          10,
+          10
+        ]
+      ],
+      "static_events": [
+        [
+          0,
+          8
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          16,
+          17
+        ]
+      ]
+    }
+  },
+  "hand_motion": {
+    "hand_0": {
+      "summary": "Hand move right 0.191m, total displacement 0.191m, detected 3 grasp(s) and 4 release(s)",
+      "motion_type": "movement",
+      "frame_analysis": {
+        "total_frames": 18,
+        "valid_frames": 18,
+        "interpolated_frames": 0,
+        "real_frames": 18,
+        "first_frame": 0,
+        "last_frame": 17
+      },
+      "position_change": {
+        "initial_position_xyz": [
+          -0.09611138701438904,
+          0.006423081271350384,
+          0.006188224535435438
+        ],
+        "final_position_xyz": [
+          0.09530023485422134,
+          0.006356630474328995,
+          0.006171219516545534
+        ],
+        "displacement_xyz": [
+          0.19141162186861038,
+          -6.645079702138901e-05,
+          -1.7005018889904022e-05
+        ],
+        "total_distance": 0.19141163415856147,
+        "average_velocity_m_per_s": 0.3377852367504026,
+        "description": "move right 0.191m"
+      },
+      "gesture_analysis": {
+        "grasp_events": [
+          {
+            "frame_range": [
+              4,
+              5,
+              6
+            ],
+            "end_frame": 6,
+            "distance_change": -0.10033014851449606,
+            "from_distance": 0.774346892995092,
+            "to_distance": 0.6740167444805959,
+            "has_interpolated_frames": false
+          },
+          {
+            "frame_range": [
+              12,
+              13,
+              14
+            ],
+            "end_frame": 14,
+            "distance_change": -0.007214887263135905,
+            "from_distance": 0.7158677853174178,
+            "to_distance": 0.7086528980542819,
+            "has_interpolated_frames": false
+          },
+          {
+            "frame_range": [
+              13,
+              14,
+              15
+            ],
+            "end_frame": 15,
+            "distance_change": -0.012865023071602644,
+            "from_distance": 0.7112495265082874,
+            "to_distance": 0.6983845034366848,
+            "has_interpolated_frames": false
+          }
+        ],
+        "release_events": [
+          {
+            "frame_range": [
+              0,
+              1,
+              2
+            ],
+            "end_frame": 2,
+            "distance_change": 0.16519545793722396,
+            "from_distance": 0.42205779267639215,
+            "to_distance": 0.5872532506136161,
+            "has_interpolated_frames": false
+          },
+          {
+            "frame_range": [
+              1,
+              2,
+              3
+            ],
+            "end_frame": 3,
+            "distance_change": 0.16426919040793597,
+            "from_distance": 0.4694925656718617,
+            "to_distance": 0.6337617560797977,
+            "has_interpolated_frames": false
+          },
+          {
+            "frame_range": [
+              2,
+              3,
+              4
+            ],
+            "end_frame": 4,
+            "distance_change": 0.18709364238147586,
+            "from_distance": 0.5872532506136161,
+            "to_distance": 0.774346892995092,
+            "has_interpolated_frames": false
+          },
+          {
+            "frame_range": [
+              8,
+              9,
+              10
+            ],
+            "end_frame": 10,
+            "distance_change": 0.04110667238199317,
+            "from_distance": 0.6595600209489637,
+            "to_distance": 0.7006666933309569,
+            "has_interpolated_frames": false
+          }
+        ],
+        "total_grasp_count": 3,
+        "total_release_count": 4,
+        "initial_fingertips_distance": 0.42205779267639215,
+        "final_fingertips_distance": 0.6079244245042773
+      },
+      "finger_state": {
+        "initial": {
+          "thumb": 3.1760268409426216,
+          "index": 1.0267734673746252,
+          "middle": 0.7401603324456042,
+          "ring": 0.7481075268898213,
+          "pinky": 0.8574663418480187
+        },
+        "final": {
+          "thumb": 3.3408124864465085,
+          "index": 1.382075231137557,
+          "middle": 1.2784423902510387,
+          "ring": 1.414943355352025,
+          "pinky": 1.389074043518526
+        }
+      },
+      "motion_events": {
+        "moving_frame_count": 7,
+        "static_frame_count": 10,
+        "moving_frames": [
+          6,
+          7,
+          10,
+          11,
+          15,
+          16,
+          17
+        ],
+        "static_frames": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          8,
+          9,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    "hand_1": {
+      "summary": "Hand move left 0.192m, total displacement 0.192m, detected 3 grasp(s) and 3 release(s)",
+      "motion_type": "movement",
+      "frame_analysis": {
+        "total_frames": 18,
+        "valid_frames": 16,
+        "interpolated_frames": 0,
+        "real_frames": 16,
+        "first_frame": 2,
+        "last_frame": 17
+      },
+      "position_change": {
+        "initial_position_xyz": [
+          0.09594064950942993,
+          0.006410852540284395,
+          0.0061759669333696365
+        ],
+        "final_position_xyz": [
+          -0.09605047851800919,
+          0.0064210547134280205,
+          0.0061988551169633865
+        ],
+        "displacement_xyz": [
+          -0.19199112802743912,
+          1.020217314362526e-05,
+          2.288818359375e-05
+        ],
+        "total_distance": 0.1919911296628097,
+        "average_velocity_m_per_s": 0.3839822593256194,
+        "description": "move left 0.192m"
+      },
+      "gesture_analysis": {
+        "grasp_events": [
+          {
+            "frame_range": [
+              8,
+              9,
+              10
+            ],
+            "end_frame": 10,
+            "distance_change": -0.07992926843560755,
+            "from_distance": 0.7821699441957909,
+            "to_distance": 0.7022406757601833,
+            "has_interpolated_frames": false
+          },
+          {
+            "frame_range": [
+              9,
+              10,
+              11
+            ],
+            "end_frame": 11,
+            "distance_change": -0.028166734676417504,
+            "from_distance": 0.7268074808514311,
+            "to_distance": 0.6986407461750136,
+            "has_interpolated_frames": false
+          },
+          {
+            "frame_range": [
+              10,
+              11,
+              12
+            ],
+            "end_frame": 12,
+            "distance_change": -0.11922764399245511,
+            "from_distance": 0.7022406757601833,
+            "to_distance": 0.5830130317677282,
+            "has_interpolated_frames": false
+          }
+        ],
+        "release_events": [
+          {
+            "frame_range": [
+              4,
+              5,
+              6
+            ],
+            "end_frame": 6,
+            "distance_change": 0.11241100633755152,
+            "from_distance": 0.6446748810924584,
+            "to_distance": 0.7570858874300099,
+            "has_interpolated_frames": false
+          },
+          {
+            "frame_range": [
+              12,
+              13,
+              14
+            ],
+            "end_frame": 14,
+            "distance_change": 0.032605529642163456,
+            "from_distance": 0.5830130317677282,
+            "to_distance": 0.6156185614098917,
+            "has_interpolated_frames": false
+          },
+          {
+            "frame_range": [
+              13,
+              14,
+              15
+            ],
+            "end_frame": 15,
+            "distance_change": 0.13594050654582057,
+            "from_distance": 0.5939867697216286,
+            "to_distance": 0.7299272762674491,
+            "has_interpolated_frames": false
+          }
+        ],
+        "total_grasp_count": 3,
+        "total_release_count": 3,
+        "initial_fingertips_distance": 0.601730995400328,
+        "final_fingertips_distance": 0.7315121611127648
+      },
+      "finger_state": {
+        "initial": {
+          "thumb": 3.307252060821575,
+          "index": 1.6105720415803526,
+          "middle": 1.310122136953401,
+          "ring": 1.2083863602481504,
+          "pinky": 1.2047657053599843
+        },
+        "final": {
+          "thumb": 3.337785600214584,
+          "index": 1.8110590559710533,
+          "middle": 1.6785250183101024,
+          "ring": 1.70909671159723,
+          "pinky": 1.5896273115919202
+        }
+      },
+      "motion_events": {
+        "moving_frame_count": 7,
+        "static_frame_count": 8,
+        "moving_frames": [
+          6,
+          7,
+          10,
+          11,
+          15,
+          16,
+          17
+        ],
+        "static_frames": [
+          3,
+          4,
+          5,
+          8,
+          9,
+          12,
+          13,
+          14
+        ]
+      }
+    }
+  },
+  "hand_object_projection_contacts": {
+    "hand_0": {
+      "obj_1": {
+        "summary": "hand_0 and object obj_1: Detected 5 approach event(s), Detected 4 leave event(s)",
+        "frame_by_frame_distances": [
+          {
+            "frame_idx": 0,
+            "hand_center_2d": [
+              560.7189331054688,
+              301.0079650878906
+            ],
+            "obj_center_2d": [
+              73.75287104108793,
+              356.54290584036335
+            ],
+            "distance_pixels": 490.12251044700145,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 1,
+            "hand_center_2d": [
+              584.2156982421875,
+              326.85479736328125
+            ],
+            "obj_center_2d": [
+              73.34918374234621,
+              356.52918053203393
+            ],
+            "distance_pixels": 511.72762740901777,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 2,
+            "hand_center_2d": [
+              591.700439453125,
+              355.0424499511719
+            ],
+            "obj_center_2d": [
+              73.97728340221147,
+              356.9137891946193
+            ],
+            "distance_pixels": 517.7265380699376,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 3,
+            "hand_center_2d": [
+              602.6576538085938,
+              360.7452392578125
+            ],
+            "obj_center_2d": [
+              74.17071181976917,
+              358.0312786049799
+            ],
+            "distance_pixels": 528.493910499567,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 4,
+            "hand_center_2d": [
+              582.38427734375,
+              351.940185546875
+            ],
+            "obj_center_2d": [
+              69.95877842874324,
+              384.25524808040336
+            ],
+            "distance_pixels": 513.4434294105237,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 5,
+            "hand_center_2d": [
+              533.2429809570312,
+              347.4281921386719
+            ],
+            "obj_center_2d": [
+              70.89109970913341,
+              383.92010852738895
+            ],
+            "distance_pixels": 463.7897390576805,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 6,
+            "hand_center_2d": [
+              29.765670776367188,
+              89.34916687011719
+            ],
+            "obj_center_2d": [
+              74.78455416386896,
+              359.0762641091537
+            ],
+            "distance_pixels": 273.4582360186911,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 7,
+            "hand_center_2d": [
+              520.96337890625,
+              363.61053466796875
+            ],
+            "obj_center_2d": [
+              74.88731457444283,
+              384.5124718866682
+            ],
+            "distance_pixels": 446.5655004019556,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 8,
+            "hand_center_2d": [
+              546.3785400390625,
+              336.5615234375
+            ],
+            "obj_center_2d": [
+              74.67615376526919,
+              357.74650296625396
+            ],
+            "distance_pixels": 472.1778738717271,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 9,
+            "hand_center_2d": [
+              557.123291015625,
+              303.9117431640625
+            ],
+            "obj_center_2d": [
+              70.77070681174064,
+              367.2190417357683
+            ],
+            "distance_pixels": 490.45555376021946,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 10,
+            "hand_center_2d": [
+              120.16244506835938,
+              66.85939025878906
+            ],
+            "obj_center_2d": [
+              122.13251744296576,
+              195.42344080302428
+            ],
+            "distance_pixels": 128.57914402227857,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 11,
+            "hand_center_2d": [
+              525.7810668945312,
+              248.6408233642578
+            ],
+            "obj_center_2d": [
+              240.31754884940392,
+              160.2302726524922
+            ],
+            "distance_pixels": 298.8408365867329,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 12,
+            "hand_center_2d": [
+              515.609619140625,
+              221.69581604003906
+            ],
+            "obj_center_2d": [
+              271.7872349590342,
+              90.92513862880332
+            ],
+            "distance_pixels": 276.6772941507646,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 13,
+            "hand_center_2d": [
+              517.16943359375,
+              208.25469970703125
+            ],
+            "obj_center_2d": [
+              299.3882827661291,
+              92.20946172287222
+            ],
+            "distance_pixels": 246.76938001827344,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 14,
+            "hand_center_2d": [
+              533.9678955078125,
+              204.64141845703125
+            ],
+            "obj_center_2d": [
+              345.99809038117746,
+              64.26352374035923
+            ],
+            "distance_pixels": 234.60307108908486,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 15,
+            "hand_center_2d": [
+              273.9510803222656,
+              12.349960327148438
+            ],
+            "obj_center_2d": [
+              336.46697558820415,
+              81.4598800329295
+            ],
+            "distance_pixels": 93.19022568188845,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 16,
+            "hand_center_2d": [
+              542.9088745117188,
+              205.65675354003906
+            ],
+            "obj_center_2d": [
+              330.3105429296129,
+              105.74528713144991
+            ],
+            "distance_pixels": 234.9049844328759,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 17,
+            "hand_center_2d": [
+              298.3138427734375,
+              26.839401245117188
+            ],
+            "obj_center_2d": [
+              332.0064863844568,
+              84.1229444124092
+            ],
+            "distance_pixels": 66.45749432004014,
+            "interpolated": false
+          }
+        ],
+        "distance_statistics": {
+          "initial_distance_pixels": 490.12251044700145,
+          "final_distance_pixels": 66.45749432004014,
+          "min_distance_pixels": 66.45749432004014,
+          "max_distance_pixels": 528.493910499567,
+          "avg_distance_pixels": 349.33240829157,
+          "distance_change_threshold_pixels": 5
+        },
+        "approach_events": [
+          {
+            "frame_range": [
+              3,
+              4,
+              5
+            ],
+            "end_frame": 5,
+            "distance_change_pixels": -64.70417144188656,
+            "from_distance": 528.493910499567,
+            "to_distance": 463.7897390576805
+          },
+          {
+            "frame_range": [
+              4,
+              5,
+              6
+            ],
+            "end_frame": 6,
+            "distance_change_pixels": -239.98519339183258,
+            "from_distance": 513.4434294105237,
+            "to_distance": 273.4582360186911
+          },
+          {
+            "frame_range": [
+              11,
+              12,
+              13
+            ],
+            "end_frame": 13,
+            "distance_change_pixels": -52.07145656845947,
+            "from_distance": 298.8408365867329,
+            "to_distance": 246.76938001827344
+          },
+          {
+            "frame_range": [
+              12,
+              13,
+              14
+            ],
+            "end_frame": 14,
+            "distance_change_pixels": -42.07422306167976,
+            "from_distance": 276.6772941507646,
+            "to_distance": 234.60307108908486
+          },
+          {
+            "frame_range": [
+              13,
+              14,
+              15
+            ],
+            "end_frame": 15,
+            "distance_change_pixels": -153.579154336385,
+            "from_distance": 246.76938001827344,
+            "to_distance": 93.19022568188845
+          }
+        ],
+        "leave_events": [
+          {
+            "frame_range": [
+              0,
+              1,
+              2
+            ],
+            "end_frame": 2,
+            "distance_change_pixels": 27.6040276229362,
+            "from_distance": 490.12251044700145,
+            "to_distance": 517.7265380699376
+          },
+          {
+            "frame_range": [
+              1,
+              2,
+              3
+            ],
+            "end_frame": 3,
+            "distance_change_pixels": 16.76628309054928,
+            "from_distance": 511.72762740901777,
+            "to_distance": 528.493910499567
+          },
+          {
+            "frame_range": [
+              6,
+              7,
+              8
+            ],
+            "end_frame": 8,
+            "distance_change_pixels": 198.71963785303603,
+            "from_distance": 273.4582360186911,
+            "to_distance": 472.1778738717271
+          },
+          {
+            "frame_range": [
+              7,
+              8,
+              9
+            ],
+            "end_frame": 9,
+            "distance_change_pixels": 43.890053358263856,
+            "from_distance": 446.5655004019556,
+            "to_distance": 490.45555376021946
+          }
+        ],
+        "static_distance_events": [],
+        "event_counts": {
+          "approach": 5,
+          "leave": 4,
+          "static": 0
+        },
+        "frame_analysis": {
+          "total_valid_frames": 18,
+          "first_frame": 0,
+          "last_frame": 17
+        }
+      },
+      "obj_2": {
+        "summary": "hand_0 and object obj_2: Detected 3 approach event(s), Detected 3 leave event(s)",
+        "frame_by_frame_distances": [
+          {
+            "frame_idx": 0,
+            "hand_center_2d": [
+              560.7189331054688,
+              301.0079650878906
+            ],
+            "obj_center_2d": [
+              330.5631126236931,
+              439.7786166062888
+            ],
+            "distance_pixels": 268.75452633300904,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 1,
+            "hand_center_2d": [
+              584.2156982421875,
+              326.85479736328125
+            ],
+            "obj_center_2d": [
+              329.94597681493724,
+              436.37938309134915
+            ],
+            "distance_pixels": 276.8550633699813,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 2,
+            "hand_center_2d": [
+              591.700439453125,
+              355.0424499511719
+            ],
+            "obj_center_2d": [
+              328.95053862214263,
+              434.38244367315565
+            ],
+            "distance_pixels": 274.46738420164877,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 3,
+            "hand_center_2d": [
+              602.6576538085938,
+              360.7452392578125
+            ],
+            "obj_center_2d": [
+              329.7491795745523,
+              433.23582398198505
+            ],
+            "distance_pixels": 282.3719536044699,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 4,
+            "hand_center_2d": [
+              582.38427734375,
+              351.940185546875
+            ],
+            "obj_center_2d": [
+              327.38400035709446,
+              434.7269689064815
+            ],
+            "distance_pixels": 268.10220581394225,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 5,
+            "hand_center_2d": [
+              533.2429809570312,
+              347.4281921386719
+            ],
+            "obj_center_2d": [
+              329.7824362678439,
+              433.4343071875119
+            ],
+            "distance_pixels": 220.89193075125021,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 6,
+            "hand_center_2d": [
+              29.765670776367188,
+              89.34916687011719
+            ],
+            "obj_center_2d": [
+              326.487795974072,
+              435.928752141318
+            ],
+            "distance_pixels": 456.2471134249509,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 7,
+            "hand_center_2d": [
+              520.96337890625,
+              363.61053466796875
+            ],
+            "obj_center_2d": [
+              324.59722391668856,
+              431.0240109225233
+            ],
+            "distance_pixels": 207.61561503438958,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 8,
+            "hand_center_2d": [
+              546.3785400390625,
+              336.5615234375
+            ],
+            "obj_center_2d": [
+              309.8444990110818,
+              363.6077253398603
+            ],
+            "distance_pixels": 238.0753023779865,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 9,
+            "hand_center_2d": [
+              557.123291015625,
+              303.9117431640625
+            ],
+            "obj_center_2d": [
+              262.1084220945598,
+              314.23548883373746
+            ],
+            "distance_pixels": 295.1954481511621,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 10,
+            "hand_center_2d": [
+              120.16244506835938,
+              66.85939025878906
+            ],
+            "obj_center_2d": [
+              355.31419448700035,
+              315.22167149359666
+            ],
+            "distance_pixels": 342.02363660250876,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 11,
+            "hand_center_2d": [
+              525.7810668945312,
+              248.6408233642578
+            ],
+            "obj_center_2d": [
+              310.5425157285563,
+              303.92290378696
+            ],
+            "distance_pixels": 222.22453132786697,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 12,
+            "hand_center_2d": [
+              515.609619140625,
+              221.69581604003906
+            ],
+            "obj_center_2d": [
+              340.4328641248585,
+              230.25178984240392
+            ],
+            "distance_pixels": 175.38557576254848,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 13,
+            "hand_center_2d": [
+              517.16943359375,
+              208.25469970703125
+            ],
+            "obj_center_2d": [
+              357.8513245169306,
+              212.8389458621532
+            ],
+            "distance_pixels": 159.38404936700556,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 14,
+            "hand_center_2d": [
+              533.9678955078125,
+              204.64141845703125
+            ],
+            "obj_center_2d": [
+              367.60161163352586,
+              182.06942791059828
+            ],
+            "distance_pixels": 167.89054519944827,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 15,
+            "hand_center_2d": [
+              273.9510803222656,
+              12.349960327148438
+            ],
+            "obj_center_2d": [
+              376.9021134138475,
+              193.24269312324213
+            ],
+            "distance_pixels": 208.13720473058854,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 16,
+            "hand_center_2d": [
+              542.9088745117188,
+              205.65675354003906
+            ],
+            "obj_center_2d": [
+              370.0526213301996,
+              195.18039558729743
+            ],
+            "distance_pixels": 173.1734342787814,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 17,
+            "hand_center_2d": [
+              298.3138427734375,
+              26.839401245117188
+            ],
+            "obj_center_2d": [
+              366.3247382764912,
+              196.4261023088302
+            ],
+            "distance_pixels": 182.71598475448297,
+            "interpolated": false
+          }
+        ],
+        "distance_statistics": {
+          "initial_distance_pixels": 268.75452633300904,
+          "final_distance_pixels": 182.71598475448297,
+          "min_distance_pixels": 159.38404936700556,
+          "max_distance_pixels": 456.2471134249509,
+          "avg_distance_pixels": 245.5284169492234,
+          "distance_change_threshold_pixels": 5
+        },
+        "approach_events": [
+          {
+            "frame_range": [
+              3,
+              4,
+              5
+            ],
+            "end_frame": 5,
+            "distance_change_pixels": -61.48002285321971,
+            "from_distance": 282.3719536044699,
+            "to_distance": 220.89193075125021
+          },
+          {
+            "frame_range": [
+              10,
+              11,
+              12
+            ],
+            "end_frame": 12,
+            "distance_change_pixels": -166.63806083996027,
+            "from_distance": 342.02363660250876,
+            "to_distance": 175.38557576254848
+          },
+          {
+            "frame_range": [
+              11,
+              12,
+              13
+            ],
+            "end_frame": 13,
+            "distance_change_pixels": -62.84048196086141,
+            "from_distance": 222.22453132786697,
+            "to_distance": 159.38404936700556
+          }
+        ],
+        "leave_events": [
+          {
+            "frame_range": [
+              7,
+              8,
+              9
+            ],
+            "end_frame": 9,
+            "distance_change_pixels": 87.57983311677253,
+            "from_distance": 207.61561503438958,
+            "to_distance": 295.1954481511621
+          },
+          {
+            "frame_range": [
+              8,
+              9,
+              10
+            ],
+            "end_frame": 10,
+            "distance_change_pixels": 103.94833422452226,
+            "from_distance": 238.0753023779865,
+            "to_distance": 342.02363660250876
+          },
+          {
+            "frame_range": [
+              13,
+              14,
+              15
+            ],
+            "end_frame": 15,
+            "distance_change_pixels": 48.75315536358298,
+            "from_distance": 159.38404936700556,
+            "to_distance": 208.13720473058854
+          }
+        ],
+        "static_distance_events": [],
+        "event_counts": {
+          "approach": 3,
+          "leave": 3,
+          "static": 0
+        },
+        "frame_analysis": {
+          "total_valid_frames": 18,
+          "first_frame": 0,
+          "last_frame": 17
+        }
+      }
+    },
+    "hand_1": {
+      "obj_1": {
+        "summary": "hand_1 and object obj_1: Detected 2 approach event(s), Detected 3 leave event(s)",
+        "frame_by_frame_distances": [
+          {
+            "frame_idx": 2,
+            "hand_center_2d": [
+              18.6571044921875,
+              84.61561584472656
+            ],
+            "obj_center_2d": [
+              73.97728340221147,
+              356.9137891946193
+            ],
+            "distance_pixels": 277.86078781347555,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 3,
+            "hand_center_2d": [
+              24.375213623046875,
+              86.15962219238281
+            ],
+            "obj_center_2d": [
+              74.17071181976917,
+              358.0312786049799
+            ],
+            "distance_pixels": 276.39426405261923,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 4,
+            "hand_center_2d": [
+              31.2799072265625,
+              89.74462890625
+            ],
+            "obj_center_2d": [
+              69.95877842874324,
+              384.25524808040336
+            ],
+            "distance_pixels": 297.0396604560039,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 5,
+            "hand_center_2d": [
+              28.606246948242188,
+              86.48855590820312
+            ],
+            "obj_center_2d": [
+              70.89109970913341,
+              383.92010852738895
+            ],
+            "distance_pixels": 300.4222649313292,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 6,
+            "hand_center_2d": [
+              528.4185791015625,
+              354.0682678222656
+            ],
+            "obj_center_2d": [
+              74.78455416386896,
+              359.0762641091537
+            ],
+            "distance_pixels": 453.6616675541162,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 7,
+            "hand_center_2d": [
+              56.32936096191406,
+              141.011962890625
+            ],
+            "obj_center_2d": [
+              74.88731457444283,
+              384.5124718866682
+            ],
+            "distance_pixels": 244.20666560030028,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 8,
+            "hand_center_2d": [
+              77.45591735839844,
+              169.43453979492188
+            ],
+            "obj_center_2d": [
+              74.67615376526919,
+              357.74650296625396
+            ],
+            "distance_pixels": 188.3324787684663,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 9,
+            "hand_center_2d": [
+              88.11349487304688,
+              166.4576416015625
+            ],
+            "obj_center_2d": [
+              70.77070681174064,
+              367.2190417357683
+            ],
+            "distance_pixels": 201.50908684619182,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 10,
+            "hand_center_2d": [
+              554.4984130859375,
+              278.5694885253906
+            ],
+            "obj_center_2d": [
+              122.13251744296576,
+              195.42344080302428
+            ],
+            "distance_pixels": 440.2880113823214,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 11,
+            "hand_center_2d": [
+              198.49301147460938,
+              32.76283264160156
+            ],
+            "obj_center_2d": [
+              240.31754884940392,
+              160.2302726524922
+            ],
+            "distance_pixels": 134.15379304941618,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 12,
+            "hand_center_2d": [
+              239.58522033691406,
+              19.443588256835938
+            ],
+            "obj_center_2d": [
+              271.7872349590342,
+              90.92513862880332
+            ],
+            "distance_pixels": 78.40013896227066,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 13,
+            "hand_center_2d": [
+              256.2762756347656,
+              10.983489990234375
+            ],
+            "obj_center_2d": [
+              299.3882827661291,
+              92.20946172287222
+            ],
+            "distance_pixels": 91.95816245883788,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 14,
+            "hand_center_2d": [
+              258.763427734375,
+              4.84918212890625
+            ],
+            "obj_center_2d": [
+              345.99809038117746,
+              64.26352374035923
+            ],
+            "distance_pixels": 105.54596323983152,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 15,
+            "hand_center_2d": [
+              547.017578125,
+              201.96182250976562
+            ],
+            "obj_center_2d": [
+              336.46697558820415,
+              81.4598800329295
+            ],
+            "distance_pixels": 242.59487704668973,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 16,
+            "hand_center_2d": [
+              294.4996337890625,
+              28.351211547851562
+            ],
+            "obj_center_2d": [
+              330.3105429296129,
+              105.74528713144991
+            ],
+            "distance_pixels": 85.27757119496597,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 17,
+            "hand_center_2d": [
+              537.468017578125,
+              202.80455017089844
+            ],
+            "obj_center_2d": [
+              332.0064863844568,
+              84.1229444124092
+            ],
+            "distance_pixels": 237.27571377167988,
+            "interpolated": false
+          }
+        ],
+        "distance_statistics": {
+          "initial_distance_pixels": 277.86078781347555,
+          "final_distance_pixels": 237.27571377167988,
+          "min_distance_pixels": 78.40013896227066,
+          "max_distance_pixels": 453.6616675541162,
+          "avg_distance_pixels": 228.4325691955322,
+          "distance_change_threshold_pixels": 5
+        },
+        "approach_events": [
+          {
+            "frame_range": [
+              6,
+              7,
+              8
+            ],
+            "end_frame": 8,
+            "distance_change_pixels": -265.3291887856499,
+            "from_distance": 453.6616675541162,
+            "to_distance": 188.3324787684663
+          },
+          {
+            "frame_range": [
+              10,
+              11,
+              12
+            ],
+            "end_frame": 12,
+            "distance_change_pixels": -361.8878724200507,
+            "from_distance": 440.2880113823214,
+            "to_distance": 78.40013896227066
+          }
+        ],
+        "leave_events": [
+          {
+            "frame_range": [
+              8,
+              9,
+              10
+            ],
+            "end_frame": 10,
+            "distance_change_pixels": 251.95553261385507,
+            "from_distance": 188.3324787684663,
+            "to_distance": 440.2880113823214
+          },
+          {
+            "frame_range": [
+              12,
+              13,
+              14
+            ],
+            "end_frame": 14,
+            "distance_change_pixels": 27.145824277560862,
+            "from_distance": 78.40013896227066,
+            "to_distance": 105.54596323983152
+          },
+          {
+            "frame_range": [
+              13,
+              14,
+              15
+            ],
+            "end_frame": 15,
+            "distance_change_pixels": 150.63671458785186,
+            "from_distance": 91.95816245883788,
+            "to_distance": 242.59487704668973
+          }
+        ],
+        "static_distance_events": [],
+        "event_counts": {
+          "approach": 2,
+          "leave": 3,
+          "static": 0
+        },
+        "frame_analysis": {
+          "total_valid_frames": 16,
+          "first_frame": 2,
+          "last_frame": 17
+        }
+      },
+      "obj_2": {
+        "summary": "hand_1 and object obj_2: Detected 6 approach event(s)",
+        "frame_by_frame_distances": [
+          {
+            "frame_idx": 2,
+            "hand_center_2d": [
+              18.6571044921875,
+              84.61561584472656
+            ],
+            "obj_center_2d": [
+              328.95053862214263,
+              434.38244367315565
+            ],
+            "distance_pixels": 467.5669461299876,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 3,
+            "hand_center_2d": [
+              24.375213623046875,
+              86.15962219238281
+            ],
+            "obj_center_2d": [
+              329.7491795745523,
+              433.23582398198505
+            ],
+            "distance_pixels": 462.2933580851534,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 4,
+            "hand_center_2d": [
+              31.2799072265625,
+              89.74462890625
+            ],
+            "obj_center_2d": [
+              327.38400035709446,
+              434.7269689064815
+            ],
+            "distance_pixels": 454.63221276179945,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 5,
+            "hand_center_2d": [
+              28.606246948242188,
+              86.48855590820312
+            ],
+            "obj_center_2d": [
+              329.7824362678439,
+              433.4343071875119
+            ],
+            "distance_pixels": 459.4327495334225,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 6,
+            "hand_center_2d": [
+              528.4185791015625,
+              354.0682678222656
+            ],
+            "obj_center_2d": [
+              326.487795974072,
+              435.928752141318
+            ],
+            "distance_pixels": 217.89258837195774,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 7,
+            "hand_center_2d": [
+              56.32936096191406,
+              141.011962890625
+            ],
+            "obj_center_2d": [
+              324.59722391668856,
+              431.0240109225233
+            ],
+            "distance_pixels": 395.06282322939194,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 8,
+            "hand_center_2d": [
+              77.45591735839844,
+              169.43453979492188
+            ],
+            "obj_center_2d": [
+              309.8444990110818,
+              363.6077253398603
+            ],
+            "distance_pixels": 302.83275725590676,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 9,
+            "hand_center_2d": [
+              88.11349487304688,
+              166.4576416015625
+            ],
+            "obj_center_2d": [
+              262.1084220945598,
+              314.23548883373746
+            ],
+            "distance_pixels": 228.2816830834126,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 10,
+            "hand_center_2d": [
+              554.4984130859375,
+              278.5694885253906
+            ],
+            "obj_center_2d": [
+              355.31419448700035,
+              315.22167149359666
+            ],
+            "distance_pixels": 202.52835716314897,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 11,
+            "hand_center_2d": [
+              198.49301147460938,
+              32.76283264160156
+            ],
+            "obj_center_2d": [
+              310.5425157285563,
+              303.92290378696
+            ],
+            "distance_pixels": 293.39883364988196,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 12,
+            "hand_center_2d": [
+              239.58522033691406,
+              19.443588256835938
+            ],
+            "obj_center_2d": [
+              340.4328641248585,
+              230.25178984240392
+            ],
+            "distance_pixels": 233.68856436146294,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 13,
+            "hand_center_2d": [
+              256.2762756347656,
+              10.983489990234375
+            ],
+            "obj_center_2d": [
+              357.8513245169306,
+              212.8389458621532
+            ],
+            "distance_pixels": 225.97149293810133,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 14,
+            "hand_center_2d": [
+              258.763427734375,
+              4.84918212890625
+            ],
+            "obj_center_2d": [
+              367.60161163352586,
+              182.06942791059828
+            ],
+            "distance_pixels": 207.97299293270922,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 15,
+            "hand_center_2d": [
+              547.017578125,
+              201.96182250976562
+            ],
+            "obj_center_2d": [
+              376.9021134138475,
+              193.24269312324213
+            ],
+            "distance_pixels": 170.33876408836105,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 16,
+            "hand_center_2d": [
+              294.4996337890625,
+              28.351211547851562
+            ],
+            "obj_center_2d": [
+              370.0526213301996,
+              195.18039558729743
+            ],
+            "distance_pixels": 183.1399207536645,
+            "interpolated": false
+          },
+          {
+            "frame_idx": 17,
+            "hand_center_2d": [
+              537.468017578125,
+              202.80455017089844
+            ],
+            "obj_center_2d": [
+              366.3247382764912,
+              196.4261023088302
+            ],
+            "distance_pixels": 171.26209927256573,
+            "interpolated": false
+          }
+        ],
+        "distance_statistics": {
+          "initial_distance_pixels": 467.5669461299876,
+          "final_distance_pixels": 171.26209927256573,
+          "min_distance_pixels": 170.33876408836105,
+          "max_distance_pixels": 467.5669461299876,
+          "avg_distance_pixels": 292.268508975683,
+          "distance_change_threshold_pixels": 5
+        },
+        "approach_events": [
+          {
+            "frame_range": [
+              2,
+              3,
+              4
+            ],
+            "end_frame": 4,
+            "distance_change_pixels": -12.934733368188176,
+            "from_distance": 467.5669461299876,
+            "to_distance": 454.63221276179945
+          },
+          {
+            "frame_range": [
+              7,
+              8,
+              9
+            ],
+            "end_frame": 9,
+            "distance_change_pixels": -166.78114014597935,
+            "from_distance": 395.06282322939194,
+            "to_distance": 228.2816830834126
+          },
+          {
+            "frame_range": [
+              8,
+              9,
+              10
+            ],
+            "end_frame": 10,
+            "distance_change_pixels": -100.30440009275779,
+            "from_distance": 302.83275725590676,
+            "to_distance": 202.52835716314897
+          },
+          {
+            "frame_range": [
+              11,
+              12,
+              13
+            ],
+            "end_frame": 13,
+            "distance_change_pixels": -67.42734071178063,
+            "from_distance": 293.39883364988196,
+            "to_distance": 225.97149293810133
+          },
+          {
+            "frame_range": [
+              12,
+              13,
+              14
+            ],
+            "end_frame": 14,
+            "distance_change_pixels": -25.71557142875372,
+            "from_distance": 233.68856436146294,
+            "to_distance": 207.97299293270922
+          },
+          {
+            "frame_range": [
+              13,
+              14,
+              15
+            ],
+            "end_frame": 15,
+            "distance_change_pixels": -55.63272884974029,
+            "from_distance": 225.97149293810133,
+            "to_distance": 170.33876408836105
+          }
+        ],
+        "leave_events": [],
+        "static_distance_events": [],
+        "event_counts": {
+          "approach": 6,
+          "leave": 0,
+          "static": 0
+        },
+        "frame_analysis": {
+          "total_valid_frames": 16,
+          "first_frame": 2,
+          "last_frame": 17
+        }
+      }
+    }
+  }
+}
