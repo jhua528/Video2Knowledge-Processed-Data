@@ -1,4 +1,6 @@
 # 📦 Video2Knowledge — Experimental Results and Data
+*Laboratory for Industry 4.0 Smart Manufacturing Systems (LISMS)*
+
 
 This repository contains the **experimental results and supplementary data** referenced in the paper:
 
@@ -37,10 +39,8 @@ jan.polzer@auckland.ac.nz
 or
 jinyi.huang@auckland.ac.nz
 
-
 ---
 
 ## 📄 License
 
-This repository is provided for **academic and research use only**.  
-Please refer to the paper for detailed usage and citation guidelines.
+This repository is provided for **academic and research use only**. Please refer to the paper for details.
