@@ -33,9 +33,10 @@ If you require **complete data**, including intermediate results (e.g., object p
 📧 **Contact:**  
 *The author’s email address*
 
-jinyi.huang@auckland.ac.nz
+jan.polzer@auckland.ac.nz
 or
-jinyihuang12@gmail.com
+jinyi.huang@auckland.ac.nz
+
 
 ---
 
