@@ -13,7 +13,7 @@ This repository contains the **experimental results and supplementary data** ref
 This repository provides **processed results** derived from the experiments described in the paper, including:
 
 - 🎥 **Videos**  
-  Demonstration and qualitative result visualizations.
+  Demonstration, simulation, real cobot action and qualitative result visualizations.
 
 - 🖼️ **Images**  
   Pose renderings, and visualization outputs.
@@ -22,7 +22,7 @@ This repository provides **processed results** derived from the experiments desc
   Extracted structured task knowledge and evaluation summaries.
 
 - 📄 **JSON Files**  
-  Structured representations of motion_analysis, event nodes, and action sequences.
+  Structured representations of motion_analysis, event(stage) nodes, and robot action sequences.
 
 These data are intended to support **result verification, qualitative analysis** of the reported findings.
 
@@ -43,4 +43,4 @@ jinyi.huang@auckland.ac.nz
 
 ## 📄 License
 
-This repository is provided for **academic and research use only**. Please refer to the paper for details.
+This repository is provided for **academic use only**. Please refer to the paper for details.
