@@ -351,20 +351,11 @@
           24
         ]
       ],
-      "separate_events": [
-        [
-          15,
-          15
-        ]
-      ],
+      "separate_events": [],
       "static_events": [
         [
           0,
           9
-        ],
-        [
-          14,
-          14
         ],
         [
           16,

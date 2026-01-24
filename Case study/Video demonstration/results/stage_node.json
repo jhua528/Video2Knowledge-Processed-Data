@@ -168,11 +168,8 @@
     "    Approach periods: 2",
     "      - Frames 10 to 13",
     "      - Frames 18 to 24",
-    "    Separate periods: 1",
-    "      - Frames 15 to 15",
-    "    Distance static periods: 4",
+    "    Distance static periods: 3",
     "      - Frames 0 to 9",
-    "      - Frames 14 to 14",
     "      - Frames 16 to 17",
     "      - Frames 25 to 45",
     "Final Position: middle-middle-upper, Vector: [-0.0029568467289209366, -0.004358161240816116, 0.029714155942201614], Description: Manipulated Object is at the middle-middle-upper of Target Object, distance 0.0302m (Z-axis upper 0.0297m)"

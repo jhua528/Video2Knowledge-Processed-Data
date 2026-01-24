@@ -177,10 +177,6 @@
         [
           13,
           14
-        ],
-        [
-          16,
-          16
         ]
       ],
       "static_events": [
@@ -190,10 +186,6 @@
         ],
         [
           15,
-          15
-        ],
-        [
-          17,
           21
         ]
       ],
@@ -349,12 +341,8 @@
       },
       "contact_analysis": {
         "has_contact": true,
-        "contact_frame_count": 9,
+        "contact_frame_count": 8,
         "contact_events": [
-          [
-            6,
-            6
-          ],
           [
             12,
             13
@@ -364,7 +352,7 @@
             21
           ]
         ],
-        "contact_description": "Detected 3 contact events, total 9 frames",
+        "contact_description": "Detected 2 contact events, total 8 frames",
         "detection_method": "OBB collision detection (considering rotation and embedding)",
         "contact_tolerance": 0.005
       },
@@ -386,16 +374,8 @@
       },
       "approach_events": [
         [
-          3,
-          3
-        ],
-        [
           5,
           6
-        ],
-        [
-          8,
-          8
         ],
         [
           11,
@@ -404,28 +384,12 @@
         [
           16,
           17
-        ],
-        [
-          21,
-          21
         ]
       ],
       "separate_events": [
         [
-          4,
-          4
-        ],
-        [
-          7,
-          7
-        ],
-        [
           9,
           10
-        ],
-        [
-          14,
-          14
         ],
         [
           18,
@@ -436,14 +400,6 @@
         [
           0,
           2
-        ],
-        [
-          15,
-          15
-        ],
-        [
-          20,
-          20
         ]
       ]
     }

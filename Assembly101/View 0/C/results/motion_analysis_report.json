@@ -330,15 +330,10 @@
         "description": "Initial distance 0.1051m, final distance 0.0748m, approaching 0.0303m"
       },
       "contact_analysis": {
-        "has_contact": true,
-        "contact_frame_count": 1,
-        "contact_events": [
-          [
-            13,
-            13
-          ]
-        ],
-        "contact_description": "Detected 1 contact events, total 1 frames",
+        "has_contact": false,
+        "contact_frame_count": 0,
+        "contact_events": [],
+        "contact_description": "No contact detected",
         "detection_method": "OBB collision detection (considering rotation and embedding)",
         "contact_tolerance": 0.005
       },
@@ -360,48 +355,15 @@
       },
       "approach_events": [
         [
-          2,
-          2
-        ],
-        [
           5,
           6
-        ],
-        [
-          8,
-          8
-        ],
-        [
-          13,
-          13
         ]
       ],
-      "separate_events": [
-        [
-          3,
-          3
-        ],
-        [
-          7,
-          7
-        ],
-        [
-          10,
-          10
-        ]
-      ],
+      "separate_events": [],
       "static_events": [
         [
           0,
           1
-        ],
-        [
-          4,
-          4
-        ],
-        [
-          9,
-          9
         ],
         [
           11,

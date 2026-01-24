@@ -4,7 +4,7 @@ TASK SEQUENCE:
 1. Approach Manipulated Object [Frames 0-2]
 2. Grasp Manipulated Object [Frames 2-3]
 3. Move Manipulated Object [Frames 3-21]
-4. Place Manipulated Object onto Target Object (objects in contact) [Frames 6-6]
+4. Place Manipulated Object onto Target Object (objects in contact) [Frames 12-13]
 
 FINAL STATE:
 --------------------------------------------------------------------------------

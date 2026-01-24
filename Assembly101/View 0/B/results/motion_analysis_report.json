@@ -315,22 +315,18 @@
       },
       "contact_analysis": {
         "has_contact": true,
-        "contact_frame_count": 10,
+        "contact_frame_count": 9,
         "contact_events": [
           [
             3,
             4
           ],
           [
-            6,
-            6
-          ],
-          [
             8,
             14
           ]
         ],
-        "contact_description": "Detected 3 contact events, total 10 frames",
+        "contact_description": "Detected 2 contact events, total 9 frames",
         "detection_method": "OBB collision detection (considering rotation and embedding)",
         "contact_tolerance": 0.005
       },
@@ -350,50 +346,12 @@
         "vertical_direction": "middle",
         "description": "Manipulated Object is at the middle-back-middle of Target Object, distance 0.0658m (Y-axis back 0.0627m)"
       },
-      "approach_events": [
-        [
-          3,
-          3
-        ],
-        [
-          6,
-          6
-        ],
-        [
-          8,
-          8
-        ],
-        [
-          10,
-          10
-        ]
-      ],
-      "separate_events": [
-        [
-          2,
-          2
-        ],
-        [
-          5,
-          5
-        ],
-        [
-          7,
-          7
-        ]
-      ],
+      "approach_events": [],
+      "separate_events": [],
       "static_events": [
         [
           0,
           1
-        ],
-        [
-          4,
-          4
-        ],
-        [
-          9,
-          9
         ],
         [
           11,
