@@ -42,7 +42,6 @@
     "        - Frames 2->3->4: 276.3px -> 228.9px (decrease 47.4px)",
     "        - Frames 3->4->5: 263.3px -> 220.1px (decrease 43.1px)",
     "        - Frames 8->9->10: 299.2px -> 238.0px (decrease 61.2px)",
-    "        ... (total 7 events)",
     "      Leave events:",
     "        - Frames 5->6->7: 220.1px -> 298.7px (increase 78.5px)",
     "        - Frames 11->12->13: 194.0px -> 289.6px (increase 95.6px)",

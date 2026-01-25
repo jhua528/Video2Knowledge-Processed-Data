@@ -77,7 +77,6 @@
     "        - Frames 8->9->10: 302.8px -> 202.5px (decrease 100.3px)",
     "        - Frames 11->12->13: 293.4px -> 226.0px (decrease 67.4px)",
     "        - Frames 12->13->14: 233.7px -> 208.0px (decrease 25.7px)",
-    "        ... (total 6 events)",
     "\n[obj_1]",
     "  Pose change: object mainly rotated, The X-axis is rotated 89.98° counter-clockwise relative to its initial orientation., The Y-axis is rotated 64.98° counter-clockwise relative to its initial orientation., The Z-axis is rotated 44.25° clockwise relative to its initial orientation.",
     "  Motion type: rotation-dominant",

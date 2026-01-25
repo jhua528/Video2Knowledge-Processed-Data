@@ -3,7 +3,7 @@ TASK SEQUENCE:
 
 1. Approach Manipulated Object [Frames 0-4]
 2. Grasp Manipulated Object [Frames 4-5]
-3. Move Manipulated Object [Frames 5-15]
+3. Move Manipulated Object [Frames 5-15] (with rotation: Frames 10-11)
 
 FINAL STATE:
 --------------------------------------------------------------------------------
