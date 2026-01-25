@@ -14,7 +14,7 @@ Manipulated Object:
   - Orientation: object mainly rotated, The X-axis is rotated 155.14° counter-clockwise relative to its initial orientation., The Y-axis is rotated 62.41° clockwise relative to its initial orientation., The Z-axis is rotated 39.16° counter-clockwise relative to its initial orientation.
 
 Target Object:
-  - Position change: move along positive Y (local) 0.0704m
+  - Position change: move along negative X (local) 0.0159m, move along positive Y (local) 0.0704m
   - Orientation: object mainly rotated, The X-axis is rotated 1.27° counter-clockwise relative to its initial orientation., The Z-axis is rotated 73.59° clockwise relative to its initial orientation.
 
 Manipulated Object is at the left-back-upper of Target Object, distance 0.1077m (X-axis left side 0.0730m, Y-axis back 0.0239m, Z-axis upper 0.0755m)

@@ -43,7 +43,7 @@
         ]
       ],
       "pose_change_analysis": {
-        "summary": "object mainly translated, move right 0.0080m, move down 0.1408m, move forward 0.0605m",
+        "summary": "object mainly translated",
         "motion_type": "translation-dominant",
         "translation": {
           "vector_xyz": [
@@ -180,7 +180,7 @@
         ]
       ],
       "pose_change_analysis": {
-        "summary": "object translated and rotated simultaneously. Translation: move left 0.0149m, move down 0.0136m; Rotation: The X-axis is rotated 3.76° clockwise relative to its initial orientation., The Y-axis is rotated 6.62° counter-clockwise relative to its initial orientation., The Z-axis is rotated 1.55° counter-clockwise relative to its initial orientation.",
+        "summary": "object translated and rotated simultaneously. The X-axis is rotated 3.76° clockwise relative to its initial orientation., The Y-axis is rotated 6.62° counter-clockwise relative to its initial orientation., The Z-axis is rotated 1.55° counter-clockwise relative to its initial orientation.",
         "motion_type": "translation-and-rotation",
         "translation": {
           "vector_xyz": [
