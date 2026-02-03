@@ -4,7 +4,7 @@
 
 This repository contains the **experimental results and supplementary data** referenced in the paper:
 
-> **Video2Knowledge: Extracting Task Knowledge from Monocular RGB Videos for Generalizable Robot Behavior**
+> **Video2Knowledge: Extracting Physically Grounded Task Knowledge from Monocular Videos for Robot Action Learning**
 
 ---
 
