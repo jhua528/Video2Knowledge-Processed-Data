@@ -4,13 +4,13 @@
 
 This repository contains the **experimental results and supplementary data** referenced in the paper:
 
-> **Video2Knowledge: Extracting Physically Grounded Task Knowledge from Monocular Videos for Robot Action Learning**
+> Video2Knowledge: Extracting Physically Grounded Task Knowledge from Monocular Videos for Robot Action Learning
 
 ---
 
 ## 📂 Contents
 
-This repository provides **processed results** derived from the experiments described in the paper, including:
+This repository provides **processed results** under View-0 (left-front) derived from the experiments described in the paper, including:
 
 - 🎥 **Videos**  
   Demonstration, simulation, real cobot action and qualitative result visualizations.
@@ -30,7 +30,7 @@ These data are intended to support **result verification, qualitative analysis**
 
 ## 📬 Access to Full Data
 
-If you require **complete data**, including intermediate results (e.g., object poses, hand poses, and detailed processing logs) for **review/researach purposes**, please contact the authors directly.
+For access to complete multi-view data, including intermediate outputs (e.g., object poses, hand poses, and detailed processing logs) for review or research purposes, please contact the authors directly.
 
 📧 **Contact:**  
 *The author’s email address*
