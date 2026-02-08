@@ -882,10 +882,10 @@
               193.82656860351562
             ],
             "obj_center_2d": [
-              261.7730951132712,
-              215.72049309027898
+              262.06986579710167,
+              216.1448944736767
             ],
-            "distance_pixels": 71.64604096150069,
+            "distance_pixels": 71.49486897688655,
             "interpolated": false
           },
           {
@@ -895,10 +895,10 @@
               189.612060546875
             ],
             "obj_center_2d": [
-              258.4145108191755,
-              218.6989668584747
+              259.1071173446617,
+              219.47746187182702
             ],
-            "distance_pixels": 73.6677719595352,
+            "distance_pixels": 73.34548393782666,
             "interpolated": false
           },
           {
@@ -946,7 +946,7 @@
           "final_distance_pixels": 104.32439174252997,
           "min_distance_pixels": 53.96716591941536,
           "max_distance_pixels": 177.8768193084277,
-          "avg_distance_pixels": 93.52554830136275,
+          "avg_distance_pixels": 93.50496308369652,
           "distance_change_threshold_pixels": 5
         },
         "approach_events": [
@@ -1061,7 +1061,7 @@
               20
             ],
             "end_frame": 20,
-            "distance": 73.6677719595352
+            "distance": 73.34548393782666
           }
         ],
         "event_counts": {
@@ -1308,10 +1308,10 @@
               141.5831298828125
             ],
             "obj_center_2d": [
-              261.7730951132712,
-              215.72049309027898
+              262.06986579710167,
+              216.1448944736767
             ],
-            "distance_pixels": 79.31654752406128,
+            "distance_pixels": 79.60890666908901,
             "interpolated": false
           },
           {
@@ -1321,10 +1321,10 @@
               143.07925415039062
             ],
             "obj_center_2d": [
-              258.4145108191755,
-              218.6989668584747
+              259.1071173446617,
+              219.47746187182702
             ],
-            "distance_pixels": 80.02537766119164,
+            "distance_pixels": 80.53950844127581,
             "interpolated": false
           },
           {
@@ -1372,7 +1372,7 @@
           "final_distance_pixels": 186.49348617118204,
           "min_distance_pixels": 39.785979220019996,
           "max_distance_pixels": 186.49348617118204,
-          "avg_distance_pixels": 83.87253927659779,
+          "avg_distance_pixels": 83.90919790955743,
           "distance_change_threshold_pixels": 5
         },
         "approach_events": [
@@ -1485,7 +1485,7 @@
               19
             ],
             "end_frame": 19,
-            "distance": 79.31654752406128
+            "distance": 79.60890666908901
           },
           {
             "frame_range": [
@@ -1494,7 +1494,7 @@
               20
             ],
             "end_frame": 20,
-            "distance": 80.02537766119164
+            "distance": 80.53950844127581
           }
         ],
         "event_counts": {
