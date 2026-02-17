@@ -27,32 +27,11 @@
         0.0
       ]
     },
-    "point_a": {
-      "type": "cartesian",
-      "x": 0.0,
-      "y": -0.7,
-      "z": 0.0,
-      "x_o": [
-        1,
-        0,
-        0
-      ],
-      "y_o": [
-        0,
-        1,
-        0
-      ],
-      "z_o": [
-        0,
-        0,
-        1
-      ]
-    },
     "point_a_approach": {
       "type": "cartesian",
-      "x": 0.0,
-      "y": -0.7,
-      "z": 0.23,
+      "x": -0.62,
+      "y": -0.52,
+      "z": 0.33,
       "x_o": [
         1,
         0,
@@ -60,127 +39,209 @@
       ],
       "y_o": [
         0,
-        1,
-        0
+        0,
+        1
       ],
       "z_o": [
         0,
-        0,
-        1
+        -1,
+        0
+      ]
+    },
+    "point_a": {
+      "type": "cartesian",
+      "x": -0.62,
+      "y": -0.52,
+      "z": 0.1,
+      "x_o": [
+        1.0,
+        0.0,
+        -0.0
+      ],
+      "y_o": [
+        -0.0,
+        0.0,
+        1.0
+      ],
+      "z_o": [
+        -0.0,
+        -1.0,
+        -0.0
       ]
     },
     "point_b": {
       "type": "cartesian",
-      "x": -0.2848,
-      "y": -0.6565,
-      "z": -0.0619,
+      "x": -0.4645,
+      "y": -0.5617,
+      "z": 0.3075,
       "x_o": [
-        0.066341,
-        -0.973122,
-        0.220527
+        0.7412,
+        -0.6124,
+        0.2749
       ],
       "y_o": [
-        0.195195,
-        -0.204087,
-        -0.959295
+        -0.6677,
+        -0.7148,
+        0.2078
       ],
       "z_o": [
-        0.978518,
-        0.106686,
-        0.17641
+        0.0693,
+        -0.3376,
+        -0.9388
       ]
     },
-    "point_b_approach": {
+    "point_c": {
       "type": "cartesian",
-      "x": -0.2848,
-      "y": -0.6565,
-      "z": 0.16810000000000003,
+      "x": -0.3939,
+      "y": -0.6927,
+      "z": 0.1239,
       "x_o": [
-        0.066341,
-        -0.973122,
-        0.220527
+        0.4671,
+        -0.882,
+        0.0626
       ],
       "y_o": [
-        0.195195,
-        -0.204087,
-        -0.959295
+        -0.8508,
+        -0.4676,
+        -0.2397
       ],
       "z_o": [
-        0.978518,
-        0.106686,
-        0.17641
+        0.2407,
+        0.0587,
+        -0.9688
+      ]
+    },
+    "point_place_mid": {
+      "type": "cartesian",
+      "x": -0.383,
+      "y": -0.6822,
+      "z": 0.0716,
+      "x_o": [
+        0.1841,
+        -0.9767,
+        0.1106
+      ],
+      "y_o": [
+        -0.9562,
+        -0.204,
+        -0.21
+      ],
+      "z_o": [
+        0.2277,
+        -0.0671,
+        -0.9714
+      ]
+    },
+    "point_place": {
+      "type": "cartesian",
+      "x": -0.3851,
+      "y": -0.6828,
+      "z": 0.072,
+      "x_o": [
+        0.1763,
+        -0.9785,
+        0.1066
+      ],
+      "y_o": [
+        -0.9593,
+        -0.1951,
+        -0.2042
+      ],
+      "z_o": [
+        0.2206,
+        -0.0663,
+        -0.9731
       ]
     }
   },
   "sequence": [
     {
       "step": 1,
-      "description": "移动到 HOME 位置",
+      "description": "Move to HOME",
       "action": "move",
-      "target": "home"
+      "target": "home",
+      "duration": 1.0
     },
     {
       "step": 2,
-      "description": "打开夹爪",
+      "description": "Open gripper",
       "action": "gripper",
       "state": "open",
       "duration": 1.0
     },
     {
       "step": 3,
-      "description": "移动到 A 点上方（预备位置）",
+      "description": "Approach Point A",
       "action": "move",
-      "target": "point_a_approach"
+      "target": "point_a_approach",
+      "duration": 2.67
     },
     {
       "step": 4,
-      "description": "下降到 A 点（抓取位置）",
+      "description": "Descend to Point A",
       "action": "move",
-      "target": "point_a"
+      "target": "point_a",
+      "duration": 1.0
     },
     {
       "step": 5,
-      "description": "关闭夹爪（抓取物体）",
+      "description": "Grasp object",
       "action": "gripper",
       "state": "close",
       "duration": 1.0
     },
     {
       "step": 6,
-      "description": "提升到 A 点上方",
+      "description": "Move 1 - end point (Frame 15, +11.333333333333334 frames)",
       "action": "move",
-      "target": "point_a_approach"
+      "target": "point_b",
+      "duration": 3.78
     },
     {
       "step": 7,
-      "description": "移动到 B 点上方（预备位置）",
+      "description": "Move 2 - end point (Frame 22, +7 frames)",
       "action": "move",
-      "target": "point_b_approach"
+      "target": "point_c",
+      "duration": 2.33
     },
     {
       "step": 8,
-      "description": "下降到 B 点（放置位置）",
+      "description": "Place - middle point (Frame 34, +12 frames)",
       "action": "move",
-      "target": "point_b"
+      "target": "point_place_mid",
+      "duration": 4.0
     },
     {
       "step": 9,
-      "description": "打开夹爪（放置物体）",
+      "description": "Place object (Frame 45, +11 frames)",
+      "action": "move",
+      "target": "point_place",
+      "duration": 3.67
+    },
+    {
+      "step": 10,
+      "description": "Release object",
       "action": "gripper",
       "state": "open",
       "duration": 1.0
     },
     {
-      "step": 10,
-      "description": "提升到 B 点上方",
-      "action": "move",
-      "target": "point_b_approach"
-    },
-    {
       "step": 11,
-      "description": "返回 HOME 位置",
+      "description": "Return to HOME",
       "action": "move",
-      "target": "home"
+      "target": "home",
+      "duration": 2.67
     }
-  ]
+  ],
+  "metadata": {
+    "object_vertical_axis": "X",
+    "coordinate_transform": "camera_to_robot",
+    "total_waypoints": 5,
+    "move_operations": 2,
+    "long_moves_with_middle_point": [],
+    "has_place": true,
+    "place_has_middle_point": true,
+    "fps_scale": 3.0,
+    "min_duration_seconds": 1.0
+  }
 }

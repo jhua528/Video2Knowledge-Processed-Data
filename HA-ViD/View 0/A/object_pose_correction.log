@@ -1,0 +1,870 @@
+=== Combined Object Pose Correction Log ===
+
+============================================================
+Object Pose Correction Log for obj 1
+============================================================
+
+==================================================
+Processing Frame 0 (index 0)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- First frame, no rotation correction needed ---
+==================================================
+Processing Frame 1 (index 1)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 16.71 deg
+  Y-axis angle: 1.20 deg
+  Z-axis angle: 16.74 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 0:
+    Rotation angle: 16.75 deg
+    Rotation axis: [-0.06774826788412773, -0.9974256632157555, -0.02349933099708901]
+  Angle not in trigger range, no correction needed.
+==================================================
+Processing Frame 2 (index 2)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+✓ Position outlier detected!
+  Original position: [-0.04726012423634529, 0.14533618092536926, 0.5502864718437195]
+  Corrected position: [-0.08022154122591019, 0.1650814190506935, 0.568331778049469]
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 76.66 deg
+  Y-axis angle: 55.71 deg
+  Z-axis angle: 101.06 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 1:
+    Rotation angle: 101.47 deg
+    Rotation axis: [-0.5985966018900797, 0.7973519914616078, 0.07688894535534586]
+✓ Rotation angle in trigger range! Applying axis correction.
+  -> Correcting along Y axis
+==================================================
+Processing Frame 3 (index 3)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 58.65 deg
+  Y-axis angle: 56.36 deg
+  Z-axis angle: 61.63 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 2:
+    Rotation angle: 74.05 deg
+    Rotation axis: [-0.5819075256358228, -0.6204555995998597, -0.5257551526457662]
+✓ Rotation angle in trigger range! Applying axis correction.
+  -> Correcting along Y axis
+==================================================
+Processing Frame 4 (index 4)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 28.95 deg
+  Y-axis angle: 3.87 deg
+  Z-axis angle: 29.07 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 3:
+    Rotation angle: 29.15 deg
+    Rotation axis: [-0.11369750265052327, 0.9909460795697864, -0.07140549892203563]
+  Angle not in trigger range, no correction needed.
+==================================================
+Processing Frame 5 (index 5)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 102.62 deg
+  Y-axis angle: 5.54 deg
+  Z-axis angle: 102.48 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 4:
+    Rotation angle: 102.69 deg
+    Rotation axis: [0.030583886837552043, 0.9980855547960669, 0.05375733599551818]
+✓ Rotation angle in trigger range! Applying axis correction.
+  -> Correcting along Y axis
+==================================================
+Processing Frame 6 (index 6)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 166.30 deg
+  Y-axis angle: 12.80 deg
+  Z-axis angle: 164.42 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 5:
+    Rotation angle: 168.47 deg
+    Rotation axis: [0.0646172660610611, -0.9937087342001863, -0.09147437073332364]
+✓ Rotation angle in trigger range! Applying axis correction.
+  -> Correcting along Y axis
+==================================================
+Processing Frame 7 (index 7)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 94.32 deg
+  Y-axis angle: 20.47 deg
+  Z-axis angle: 97.68 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 6:
+    Rotation angle: 97.82 deg
+    Rotation axis: [-0.23116304020964448, -0.9718117026867539, 0.04632130570381795]
+✓ Rotation angle in trigger range! Applying axis correction.
+  -> Correcting along Y axis
+==================================================
+Processing Frame 8 (index 8)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 20.16 deg
+  Y-axis angle: 24.36 deg
+  Z-axis angle: 29.71 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 7:
+    Rotation angle: 30.78 deg
+    Rotation axis: [-0.7516395267679951, 0.6067878686763334, -0.2585469091426495]
+  Angle not in trigger range, no correction needed.
+==================================================
+Processing Frame 9 (index 9)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 95.54 deg
+  Y-axis angle: 73.02 deg
+  Z-axis angle: 115.52 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 8:
+    Rotation angle: 128.14 deg
+    Rotation axis: [-0.5675663394202333, 0.7499237616551911, -0.33982760638600934]
+  Angle not in trigger range, no correction needed.
+==================================================
+Processing Frame 10 (index 10)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 78.75 deg
+  Y-axis angle: 98.56 deg
+  Z-axis angle: 160.70 deg
+✓ Axis angle criteria met! Applying orientation correction.
+  -> Copying previous frame orientation
+  -> Skipping Step 3
+==================================================
+Processing Frame 11 (index 11)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 80.14 deg
+  Y-axis angle: 125.71 deg
+  Z-axis angle: 87.38 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 10:
+    Rotation angle: 133.11 deg
+    Rotation axis: [-0.7125209516381464, -0.24333668126552158, 0.6581042113733601]
+  Angle not in trigger range, no correction needed.
+==================================================
+Processing Frame 12 (index 12)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 89.04 deg
+  Y-axis angle: 72.79 deg
+  Z-axis angle: 93.43 deg
+✓ Axis angle criteria met! Applying orientation correction.
+  -> Copying previous frame orientation
+  -> Skipping Step 3
+==================================================
+Processing Frame 13 (index 13)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 151.69 deg
+  Y-axis angle: 70.87 deg
+  Z-axis angle: 105.70 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 12:
+    Rotation angle: 155.73 deg
+    Rotation axis: [0.12782262791108714, -0.8051843361741295, -0.5790851065031202]
+✓ Rotation angle in trigger range! Applying axis correction.
+  -> Correcting along Y axis
+==================================================
+Processing Frame 14 (index 14)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 70.31 deg
+  Y-axis angle: 175.33 deg
+  Z-axis angle: 109.53 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 13:
+    Rotation angle: 175.61 deg
+    Rotation axis: [0.8172890316471357, -0.013967500703176768, 0.5760586321490149]
+✓ Rotation angle in trigger range! Applying axis correction.
+  -> Correcting along X axis
+==================================================
+Processing Frame 15 (index 15)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 114.66 deg
+  Y-axis angle: 1.01 deg
+  Z-axis angle: 114.66 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 14:
+    Rotation angle: 114.67 deg
+    Rotation axis: [-0.004698535655566652, 0.9999448298706023, 0.009394731382291653]
+✓ Rotation angle in trigger range! Applying axis correction.
+  -> Correcting along Y axis
+==================================================
+Processing Frame 16 (index 16)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 21.69 deg
+  Y-axis angle: 175.49 deg
+  Z-axis angle: 157.93 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 15:
+    Rotation angle: 175.72 deg
+    Rotation axis: [-0.9821148219739024, 0.012502020075006639, -0.18786744250458692]
+✓ Rotation angle in trigger range! Applying axis correction.
+  -> Correcting along X axis
+==================================================
+Processing Frame 17 (index 17)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 173.47 deg
+  Y-axis angle: 5.97 deg
+  Z-axis angle: 176.39 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 16:
+    Rotation angle: 176.84 deg
+    Rotation axis: [0.0498072721811729, -0.9986441329170965, -0.015137087835209239]
+✓ Rotation angle in trigger range! Applying axis correction.
+  -> Correcting along Y axis
+==================================================
+Processing Frame 18 (index 18)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 172.60 deg
+  Y-axis angle: 8.73 deg
+  Z-axis angle: 173.72 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 17:
+    Rotation angle: 177.00 deg
+    Rotation axis: [-0.059011023141592574, -0.9970963230575877, 0.04813129639664013]
+✓ Rotation angle in trigger range! Applying axis correction.
+  -> Correcting along Y axis
+==================================================
+Processing Frame 19 (index 19)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 6.09 deg
+  Y-axis angle: 179.08 deg
+  Z-axis angle: 173.93 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 18:
+    Rotation angle: 179.46 deg
+    Rotation axis: [0.9985863884556002, 0.006566546763796097, 0.05274566574421196]
+✓ Rotation angle in trigger range! Applying axis correction.
+  -> Correcting along X axis
+==================================================
+Processing Frame 20 (index 20)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 174.79 deg
+  Y-axis angle: 1.62 deg
+  Z-axis angle: 175.02 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 19:
+    Rotation angle: 175.03 deg
+    Rotation axis: [0.01370584862539213, -0.9998997840477019, 0.003545641665062353]
+✓ Rotation angle in trigger range! Applying axis correction.
+  -> Correcting along Y axis
+
+============================================================
+Object Pose Correction Log for obj 2
+============================================================
+
+==================================================
+Processing Frame 0 (index 0)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- First frame, no rotation correction needed ---
+==================================================
+Processing Frame 1 (index 1)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 0.10 deg
+  Y-axis angle: 0.24 deg
+  Z-axis angle: 0.22 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 0:
+    Rotation angle: 0.24 deg
+    Rotation axis: [-0.9171085368685221, -0.10728658601022195, 0.38392905603138416]
+  Angle not in trigger range, no correction needed.
+==================================================
+Processing Frame 2 (index 2)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 0.66 deg
+  Y-axis angle: 0.73 deg
+  Z-axis angle: 0.64 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 1:
+    Rotation angle: 0.83 deg
+    Rotation axis: [-0.5978338265904879, 0.4829650144335478, 0.6397964603038825]
+  Angle not in trigger range, no correction needed.
+==================================================
+Processing Frame 3 (index 3)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 0.76 deg
+  Y-axis angle: 0.90 deg
+  Z-axis angle: 1.17 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 2:
+    Rotation angle: 1.17 deg
+    Rotation axis: [0.7647395701636251, 0.6431968014314662, 0.038357065245987414]
+  Angle not in trigger range, no correction needed.
+==================================================
+Processing Frame 4 (index 4)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 0.78 deg
+  Y-axis angle: 0.73 deg
+  Z-axis angle: 1.02 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 3:
+    Rotation angle: 1.04 deg
+    Rotation axis: [-0.6653806833832906, -0.7164736718559735, 0.2096044458440801]
+  Angle not in trigger range, no correction needed.
+==================================================
+Processing Frame 5 (index 5)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 0.61 deg
+  Y-axis angle: 0.48 deg
+  Z-axis angle: 0.44 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 4:
+    Rotation angle: 0.63 deg
+    Rotation axis: [0.24741568387763696, -0.650468498098723, -0.7181059896370126]
+  Angle not in trigger range, no correction needed.
+==================================================
+Processing Frame 6 (index 6)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 0.55 deg
+  Y-axis angle: 1.12 deg
+  Z-axis angle: 0.99 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 5:
+    Rotation angle: 1.12 deg
+    Rotation axis: [-0.8744395673082316, 0.10934979359361488, 0.47265004577046926]
+  Angle not in trigger range, no correction needed.
+==================================================
+Processing Frame 7 (index 7)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 1.01 deg
+  Y-axis angle: 1.61 deg
+  Z-axis angle: 1.33 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 6:
+    Rotation angle: 1.64 deg
+    Rotation axis: [0.786830602275653, -0.19497882988639384, -0.5855602951179885]
+  Angle not in trigger range, no correction needed.
+==================================================
+Processing Frame 8 (index 8)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 0.27 deg
+  Y-axis angle: 0.17 deg
+  Z-axis angle: 0.24 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 7:
+    Rotation angle: 0.28 deg
+    Rotation axis: [-0.30188396570828885, -0.7980511020093148, 0.521517506733911]
+  Angle not in trigger range, no correction needed.
+==================================================
+Processing Frame 9 (index 9)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 0.22 deg
+  Y-axis angle: 0.11 deg
+  Z-axis angle: 0.24 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 8:
+    Rotation angle: 0.25 deg
+    Rotation axis: [-0.44660360236689856, 0.8872578960326915, 0.11540644817578882]
+  Angle not in trigger range, no correction needed.
+==================================================
+Processing Frame 10 (index 10)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 0.71 deg
+  Y-axis angle: 1.03 deg
+  Z-axis angle: 0.85 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 9:
+    Rotation angle: 1.07 deg
+    Rotation axis: [-0.7462650743659265, -0.28069821057079963, -0.6035701726924296]
+  Angle not in trigger range, no correction needed.
+==================================================
+Processing Frame 11 (index 11)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 0.77 deg
+  Y-axis angle: 1.09 deg
+  Z-axis angle: 0.94 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 10:
+    Rotation angle: 1.15 deg
+    Rotation axis: [0.7422641547871105, 0.33217976369940616, 0.5819798356530775]
+  Angle not in trigger range, no correction needed.
+==================================================
+Processing Frame 12 (index 12)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 0.46 deg
+  Y-axis angle: 0.41 deg
+  Z-axis angle: 0.25 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 11:
+    Rotation angle: 0.47 deg
+    Rotation axis: [-0.20308794189446855, -0.4952777805902276, 0.8446627776282599]
+  Angle not in trigger range, no correction needed.
+==================================================
+Processing Frame 13 (index 13)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 0.83 deg
+  Y-axis angle: 0.83 deg
+  Z-axis angle: 0.95 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 12:
+    Rotation angle: 1.07 deg
+    Rotation axis: [0.6325278910765192, 0.6278741325138371, -0.4535223707054454]
+  Angle not in trigger range, no correction needed.
+==================================================
+Processing Frame 14 (index 14)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+✓ Position outlier detected!
+  Original position: [0.014663398265838623, -0.05455907806754112, 0.7658615708351135]
+  Corrected position: [0.011827316600829363, -0.05473926290869713, 0.7664313018321991]
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 0.57 deg
+  Y-axis angle: 0.97 deg
+  Z-axis angle: 1.02 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 13:
+    Rotation angle: 1.07 deg
+    Rotation axis: [-0.8468225309339015, 0.4330447602964066, -0.308810357149059]
+  Angle not in trigger range, no correction needed.
+==================================================
+Processing Frame 15 (index 15)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 0.65 deg
+  Y-axis angle: 0.98 deg
+  Z-axis angle: 0.86 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 14:
+    Rotation angle: 1.03 deg
+    Rotation axis: [0.7777398254493416, -0.29811187466175204, 0.553398657475498]
+  Angle not in trigger range, no correction needed.
+==================================================
+Processing Frame 16 (index 16)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 0.23 deg
+  Y-axis angle: 0.33 deg
+  Z-axis angle: 0.36 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 15:
+    Rotation angle: 0.38 deg
+    Rotation axis: [-0.8086385584457095, -0.4918574907251878, -0.32276909798239145]
+  Angle not in trigger range, no correction needed.
+==================================================
+Processing Frame 17 (index 17)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 0.21 deg
+  Y-axis angle: 0.30 deg
+  Z-axis angle: 0.37 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 16:
+    Rotation angle: 0.37 deg
+    Rotation axis: [0.8177562995483265, 0.574670980414804, -0.03206086115680041]
+  Angle not in trigger range, no correction needed.
+==================================================
+Processing Frame 18 (index 18)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 0.36 deg
+  Y-axis angle: 0.13 deg
+  Z-axis angle: 0.39 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 17:
+    Rotation angle: 0.38 deg
+    Rotation axis: [0.33870233991687815, -0.940848348563873, 0.009225504835218529]
+  Angle not in trigger range, no correction needed.
+==================================================
+Processing Frame 19 (index 19)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 0.05 deg
+  Y-axis angle: 0.33 deg
+  Z-axis angle: 0.33 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 18:
+    Rotation angle: 0.33 deg
+    Rotation axis: [-0.9884467127479839, -0.14199565474796397, 0.05301254653760139]
+  Angle not in trigger range, no correction needed.
+==================================================
+Processing Frame 20 (index 20)
+==================================================
+
+--- Step 1: Position Outlier Detection ---
+  No position outlier detected.
+
+--- Step 2: Axis Angle Orientation Check ---
+  X-axis angle: 0.45 deg
+  Y-axis angle: 0.64 deg
+  Z-axis angle: 0.74 deg
+  Criteria not met, proceeding to Step 3.
+
+--- Step 3: Specific Angle Range Rotation Correction ---
+  Trigger ranges: [60.0-120.0] deg or [140.0-180.0] deg
+  OR: 1 axis deviation <=10.0 deg, 2 axes deviation >=50.0 deg (diff <=10.0 deg), rotation angle >=50.0 deg
+  OR: 1 axis deviation <=15.0 deg, 2 axes deviation >=145.0 deg (diff <=10.0 deg), rotation angle >=145.0 deg
+  Relative rotation from frame 19:
+    Rotation angle: 0.76 deg
+    Rotation axis: [-0.8050049940516433, 0.541987503875969, -0.24128096732691187]
+  Angle not in trigger range, no correction needed.

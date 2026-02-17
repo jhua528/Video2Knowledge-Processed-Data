@@ -1301,10 +1301,10 @@
               -15.436248779296875
             ],
             "obj_center_2d": [
-              281.29871439874887,
-              136.49414482291286
+              282.22679476804774,
+              138.6873810497891
             ],
-            "distance_pixels": 181.34819209674274,
+            "distance_pixels": 183.6928630535976,
             "interpolated": false
           },
           {
@@ -1729,7 +1729,7 @@
           "final_distance_pixels": 442.94359512073873,
           "min_distance_pixels": 134.87673747828396,
           "max_distance_pixels": 442.94359512073873,
-          "avg_distance_pixels": 223.44421648242988,
+          "avg_distance_pixels": 223.4951875901876,
           "distance_change_threshold_pixels": 5
         },
         "approach_events": [
@@ -1773,9 +1773,9 @@
               13
             ],
             "end_frame": 13,
-            "distance_change_pixels": -62.77675851991407,
+            "distance_change_pixels": -60.43208756305921,
             "from_distance": 244.1249506166568,
-            "to_distance": 181.34819209674274
+            "to_distance": 183.6928630535976
           },
           {
             "frame_range": [
@@ -3232,10 +3232,10 @@
               69.36041259765625
             ],
             "obj_center_2d": [
-              281.29871439874887,
-              136.49414482291286
+              282.22679476804774,
+              138.6873810497891
             ],
-            "distance_pixels": 211.23516779682274,
+            "distance_pixels": 211.06560638067256,
             "interpolated": false
           },
           {
@@ -3660,7 +3660,7 @@
           "final_distance_pixels": 208.725758861365,
           "min_distance_pixels": 145.39435375698838,
           "max_distance_pixels": 453.96355940736015,
-          "avg_distance_pixels": 337.4199338189173,
+          "avg_distance_pixels": 337.4162477011749,
           "distance_change_threshold_pixels": 5
         },
         "approach_events": [
@@ -3819,7 +3819,7 @@
               14
             ],
             "end_frame": 14,
-            "distance": 211.23516779682274
+            "distance": 211.06560638067256
           },
           {
             "frame_range": [
