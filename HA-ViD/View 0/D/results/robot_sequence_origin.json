@@ -29,9 +29,9 @@
     },
     "point_a_approach": {
       "type": "cartesian",
-      "x": -0.2,
+      "x": -0.42,
       "y": -0.5,
-      "z": 0.33,
+      "z": 0.23,
       "x_o": [
         1,
         0,
@@ -50,9 +50,9 @@
     },
     "point_a": {
       "type": "cartesian",
-      "x": -0.2,
+      "x": -0.42,
       "y": -0.5,
-      "z": 0.1,
+      "z": 0.2,
       "x_o": [
         1.0,
         0.0,
@@ -71,44 +71,44 @@
     },
     "point_b": {
       "type": "cartesian",
-      "x": -0.1811,
-      "y": -0.3293,
-      "z": 0.1861,
+      "x": -0.4132,
+      "y": -0.3629,
+      "z": 0.2348,
       "x_o": [
-        0.519,
-        0.8194,
-        0.2433
+        0.92,
+        0.3615,
+        -0.1513
       ],
       "y_o": [
-        0.6016,
-        -0.5523,
-        0.5771
+        0.3448,
+        -0.5636,
+        0.7507
       ],
       "z_o": [
-        0.6073,
-        -0.1531,
-        -0.7796
+        0.1861,
+        -0.7428,
+        -0.6431
       ]
     },
     "point_c": {
       "type": "cartesian",
-      "x": -0.1998,
+      "x": -0.4198,
       "y": -0.3836,
-      "z": 0.1176,
+      "z": 0.2176,
       "x_o": [
-        0.0573,
-        0.4308,
-        0.9006
+        0.1037,
+        -0.0849,
+        -0.991
       ],
       "y_o": [
-        0.1211,
+        0.422,
         -0.8985,
-        0.422
+        0.1211
       ],
       "z_o": [
-        0.991,
-        0.0849,
-        -0.1037
+        -0.9006,
+        -0.4308,
+        -0.0573
       ]
     }
   },
@@ -132,7 +132,7 @@
       "description": "Approach Point A",
       "action": "move",
       "target": "point_a_approach",
-      "duration": 4.0
+      "duration": 1.33
     },
     {
       "step": 4,
@@ -150,17 +150,17 @@
     },
     {
       "step": 6,
-      "description": "Move 1 - middle point (Frame 10, +5.0 frames)",
+      "description": "Move 1 - middle point (Frame 9, +4.0 frames)",
       "action": "move",
       "target": "point_b",
-      "duration": 5.0
+      "duration": 1.33
     },
     {
       "step": 7,
-      "description": "Move 1 - end point (Frame 15, +5 frames)",
+      "description": "Move 1 - end point (Frame 15, +6 frames)",
       "action": "move",
       "target": "point_c",
-      "duration": 5.0
+      "duration": 2.0
     },
     {
       "step": 8,
@@ -174,20 +174,19 @@
       "description": "Return to HOME",
       "action": "move",
       "target": "home",
-      "duration": 4.0
+      "duration": 1.33
     }
   ],
   "metadata": {
-    "object_vertical_axis": "Y",
-    "coordinate_transform": "camera_to_robot",
+    "coordinate_transform": "direct_relative_rotation",
     "total_waypoints": 3,
     "move_operations": 1,
     "long_moves_with_middle_point": [
       0
     ],
-    "has_place": true,
+    "has_place": false,
     "place_has_middle_point": false,
-    "fps_scale": 1.0,
+    "fps_scale": 3.0,
     "min_duration_seconds": 1.0
   }
 }
